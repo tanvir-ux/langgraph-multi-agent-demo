@@ -1,6 +1,6 @@
 # langgraph-multi-agent-demo
 
-Hi — I am Md Tanvir Alam ([tanvir-ux](https://github.com/tanvir-ux)). This is a **small LangGraph multi-agent skeleton**: an orchestrator plus two worker agents (research + writer). It runs offline with a stub LLM so you can see the graph topology without burning API keys.
+**Small LangGraph multi-agent skeleton**: an orchestrator plus two worker agents (research + writer). Runs offline with a stub LLM so you can see the graph topology without burning API keys.
 
 ## Architecture
 
@@ -59,9 +59,5 @@ Optional real LLM also needs `pip install langchain-openai` (not pinned here so 
 ## Why this shape
 
 Clients who ask for “multi-agent LangGraph” usually want clear ownership of nodes, shared state, and a place to plug tools/LLMs. This repo is that skeleton — tiny enough to read in one sitting, runnable without secrets.
-
-## Author
-
-Md Tanvir Alam — [github.com/tanvir-ux](https://github.com/tanvir-ux)
 
 MIT License.
